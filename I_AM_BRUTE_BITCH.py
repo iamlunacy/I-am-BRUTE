@@ -1,8 +1,8 @@
 import requests
 
-player_id = "12852679"
+player_id = "PUT YOUR USERNAME/INFO"
 url = "https://playerportal.jresortreno.com/"
-site_id = "1"
+site_id = "SITE ID OF THE URL YOURE TESTING"
 
 for pin in range(0000, 10000):  # 0000 to 9999 inclusive
     pin_str = str(pin).zfill(4)
